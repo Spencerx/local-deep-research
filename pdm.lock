@@ -1028,7 +1028,7 @@ files = [
 
 [[package]]
 name = "crawl4ai"
-version = "0.8.7"
+version = "0.8.9"
 requires_python = ">=3.10"
 summary = "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & scraper"
 groups = ["default"]
@@ -1069,8 +1069,8 @@ dependencies = [
     "xxhash~=3.4",
 ]
 files = [
-    {file = "crawl4ai-0.8.7-py3-none-any.whl", hash = "sha256:4be81b0f04332e6a9501baa7d854ebc32ce3fc627c6f00ce6ea5034b91d40ddc"},
-    {file = "crawl4ai-0.8.7.tar.gz", hash = "sha256:25f4e67d6ed95d08a145a544c686620d579b1608c2bcb154a8c0ffd664e0305f"},
+    {file = "crawl4ai-0.8.9-py3-none-any.whl", hash = "sha256:7836cfc9d81ed7fc646d614e984402c336e5a682462f3d92ff37de121a4244d6"},
+    {file = "crawl4ai-0.8.9.tar.gz", hash = "sha256:00a3c97b9492a694f24fa66bc80b9f1533e5637745dc0e30914c88aac52763e3"},
 ]
 
 [[package]]
@@ -1491,13 +1491,13 @@ files = [
 
 [[package]]
 name = "filelock"
-version = "3.29.0"
+version = "3.29.1"
 requires_python = ">=3.10"
 summary = "A platform independent file lock."
 groups = ["default", "dev"]
 files = [
-    {file = "filelock-3.29.0-py3-none-any.whl", hash = "sha256:96f5f6344709aa1572bbf631c640e4ebeeb519e08da902c39a001882f30ac258"},
-    {file = "filelock-3.29.0.tar.gz", hash = "sha256:69974355e960702e789734cb4871f884ea6fe50bd8404051a3530bc07809cf90"},
+    {file = "filelock-3.29.1-py3-none-any.whl", hash = "sha256:85199dfd706869641b72b2e8955d5416a4b2b7dc4b0e8e6d97b4cc1299a6983b"},
+    {file = "filelock-3.29.1.tar.gz", hash = "sha256:d97e6b1b9757569626c58caa07dc4beb1613f4a2938b1e8cc81afca398906c9e"},
 ]
 
 [[package]]
@@ -2741,7 +2741,7 @@ files = [
 
 [[package]]
 name = "langsmith"
-version = "0.8.8"
+version = "0.8.9"
 requires_python = ">=3.10"
 summary = "Client library to connect to the LangSmith Observability and Evaluation Platform."
 groups = ["default"]
@@ -2758,8 +2758,8 @@ dependencies = [
     "zstandard>=0.23.0",
 ]
 files = [
-    {file = "langsmith-0.8.8-py3-none-any.whl", hash = "sha256:9d60d724c0d187c036e184b3ffdf9fa5c6822aa0bb88144a5fb898e79be645af"},
-    {file = "langsmith-0.8.8.tar.gz", hash = "sha256:9d00e54f54d833c1914003527ff03ad0364741034330da72f0adbeaba852b6cf"},
+    {file = "langsmith-0.8.9-py3-none-any.whl", hash = "sha256:c9519cabc75568d088df045710d1b86eae9780c91054528b2aa7e6cb1fc80c52"},
+    {file = "langsmith-0.8.9.tar.gz", hash = "sha256:f16e37fcd5a8a2d4db30eae0e399a866a65ce5cc86218825c59409ed57a3bf53"},
 ]
 
 [[package]]
@@ -3864,7 +3864,7 @@ files = [
 
 [[package]]
 name = "openai"
-version = "2.40.0"
+version = "2.41.0"
 requires_python = ">=3.9"
 summary = "The official Python library for the openai API"
 groups = ["default"]
@@ -3880,8 +3880,8 @@ dependencies = [
     "typing-extensions<5,>=4.14",
 ]
 files = [
-    {file = "openai-2.40.0-py3-none-any.whl", hash = "sha256:2b205637ff214477f9ce9ab035e9f494db0e3fa8f1e599008953735fbf6ff1ff"},
-    {file = "openai-2.40.0.tar.gz", hash = "sha256:9a756f91f274a24ad6026cbcb2042fd356c8d4a10e8f347b08d34465e585f7a2"},
+    {file = "openai-2.41.0-py3-none-any.whl", hash = "sha256:20cc7952e8501c7e5773dd2ef7be437bae9cb549044902e1041a83a54516e375"},
+    {file = "openai-2.41.0.tar.gz", hash = "sha256:db5c362acd6604b84f076abbefa66826ea4b46ecba2954ed866e6a149a1352c0"},
 ]
 
 [[package]]
@@ -4080,7 +4080,7 @@ files = [
 
 [[package]]
 name = "patchright"
-version = "1.60.0"
+version = "1.60.1"
 requires_python = ">=3.9"
 summary = "Undetected Python version of the Playwright testing and automation library."
 groups = ["default"]
@@ -4089,14 +4089,14 @@ dependencies = [
     "pyee<14,>=13",
 ]
 files = [
-    {file = "patchright-1.60.0-py3-none-macosx_10_13_x86_64.whl", hash = "sha256:c33dadd9b046142d41cf0b2791de709552b434968b0c6e40e843f803c685fde0"},
-    {file = "patchright-1.60.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:4380d7af8c14a0cf43527d3e24bdb66d1f9f68bf6d2bcd80109acf1028721b44"},
-    {file = "patchright-1.60.0-py3-none-macosx_11_0_universal2.whl", hash = "sha256:9896a180d5126b0ee89253d11d0bed3c8fba7e605fac8669e8a06173d55a2984"},
-    {file = "patchright-1.60.0-py3-none-manylinux1_x86_64.whl", hash = "sha256:7a5bbb2ced890a92e05af6eea69d01ad58602050b491276d3137d1f1290ffbe1"},
-    {file = "patchright-1.60.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e37301a8b960f3200087ba57b9b56921262d6c573e95f2b8b64e0ecf0fb0547c"},
-    {file = "patchright-1.60.0-py3-none-win32.whl", hash = "sha256:536f4ef4d6f2bb5e48d61493559b34aaac83d82beaad2185b69eb7088f4948bd"},
-    {file = "patchright-1.60.0-py3-none-win_amd64.whl", hash = "sha256:d2b68c09269d6d96817a211e93df047361ccb159826cda2595a9a028d337d2ea"},
-    {file = "patchright-1.60.0-py3-none-win_arm64.whl", hash = "sha256:80912aa39d1870887fada712c3e355d18862148d184bcbbbed82eb7bc6d51fcf"},
+    {file = "patchright-1.60.1-py3-none-macosx_10_13_x86_64.whl", hash = "sha256:e9492100d4e2a85ff92fc3a668dd16dee03f21df6e559c7b9f7c71e86ff48c6b"},
+    {file = "patchright-1.60.1-py3-none-macosx_11_0_arm64.whl", hash = "sha256:20bd806df2469b451ccd2ea10f5f944ceb0e0d83c716f5752b0c956c1ee59476"},
+    {file = "patchright-1.60.1-py3-none-macosx_11_0_universal2.whl", hash = "sha256:9fd15a64c0ca80740dc2a3f41cda336a06a2ed6068d0ab893172654290b06e6b"},
+    {file = "patchright-1.60.1-py3-none-manylinux1_x86_64.whl", hash = "sha256:547e7bfb813102309789cc42933780e5fdf7c4727de59fb2791e64bd1298a7f3"},
+    {file = "patchright-1.60.1-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:023945a2fd30219a284721ca36385bd44075ae7b53071dc1da38036b6dbe88ec"},
+    {file = "patchright-1.60.1-py3-none-win32.whl", hash = "sha256:05b98a6afdbe7e6645fe223009c47cc8e7859df55fd8ce9d8a9925b3389b0ee1"},
+    {file = "patchright-1.60.1-py3-none-win_amd64.whl", hash = "sha256:51b306ed55cd58f1bca24641458f5c9f7e86a1f1727dcffdead669cfe4c0a485"},
+    {file = "patchright-1.60.1-py3-none-win_arm64.whl", hash = "sha256:f795728c1e27fc226dbe203c1aec713a537f01be963474fe0f3691f5e6457f9f"},
 ]
 
 [[package]]
@@ -4260,7 +4260,7 @@ files = [
 
 [[package]]
 name = "plotly"
-version = "6.7.0"
+version = "6.8.0"
 requires_python = ">=3.8"
 summary = "An open-source interactive data visualization library for Python"
 groups = ["default"]
@@ -4269,8 +4269,8 @@ dependencies = [
     "packaging",
 ]
 files = [
-    {file = "plotly-6.7.0-py3-none-any.whl", hash = "sha256:ac8aca1c25c663a59b5b9140a549264a5badde2e057d79b8c772ae2920e32ff0"},
-    {file = "plotly-6.7.0.tar.gz", hash = "sha256:45eea0ff27e2a23ccd62776f77eb43aa1ca03df4192b76036e380bb479b892c6"},
+    {file = "plotly-6.8.0-py3-none-any.whl", hash = "sha256:13c5c4a0f70b74cab1913eda0de49b826df5931708eb6f9c3010040614700ec8"},
+    {file = "plotly-6.8.0.tar.gz", hash = "sha256:e088e7ddc68d4f70e3d66659224727a45296d71d2b8284181862d3d8f1f0d88f"},
 ]
 
 [[package]]
@@ -4969,13 +4969,13 @@ files = [
 
 [[package]]
 name = "python-multipart"
-version = "0.0.30"
+version = "0.0.31"
 requires_python = ">=3.10"
 summary = "A streaming multipart parser for Python"
 groups = ["mcp"]
 files = [
-    {file = "python_multipart-0.0.30-py3-none-any.whl", hash = "sha256:830964def8c90607ac5daa00514e3987815865713ade8d20febc9177ac0c3c5b"},
-    {file = "python_multipart-0.0.30.tar.gz", hash = "sha256:0edfe0475c1f46ddd3ff7785a626f6118af32bdcf359bb21260367313bb32118"},
+    {file = "python_multipart-0.0.31-py3-none-any.whl", hash = "sha256:8408153d68a9773291fc1da39a8b85a50044bddbabd2dd72e9229776b7b15e28"},
+    {file = "python_multipart-0.0.31.tar.gz", hash = "sha256:fc631183bb13e56db3158a4909908dfb2e23565286744e798241e63750e5d680"},
 ]
 
 [[package]]
@@ -5035,20 +5035,21 @@ files = [
 
 [[package]]
 name = "pywin32"
-version = "311"
-summary = "Python for Window Extensions"
+version = "312"
+requires_python = ">=3.9"
+summary = "Python for Windows Extensions"
 groups = ["mcp"]
 marker = "sys_platform == \"win32\""
 files = [
-    {file = "pywin32-311-cp312-cp312-win32.whl", hash = "sha256:750ec6e621af2b948540032557b10a2d43b0cee2ae9758c54154d711cc852d31"},
-    {file = "pywin32-311-cp312-cp312-win_amd64.whl", hash = "sha256:b8c095edad5c211ff31c05223658e71bf7116daa0ecf3ad85f3201ea3190d067"},
-    {file = "pywin32-311-cp312-cp312-win_arm64.whl", hash = "sha256:e286f46a9a39c4a18b319c28f59b61de793654af2f395c102b4f819e584b5852"},
-    {file = "pywin32-311-cp313-cp313-win32.whl", hash = "sha256:f95ba5a847cba10dd8c4d8fefa9f2a6cf283b8b88ed6178fa8a6c1ab16054d0d"},
-    {file = "pywin32-311-cp313-cp313-win_amd64.whl", hash = "sha256:718a38f7e5b058e76aee1c56ddd06908116d35147e133427e59a3983f703a20d"},
-    {file = "pywin32-311-cp313-cp313-win_arm64.whl", hash = "sha256:7b4075d959648406202d92a2310cb990fea19b535c7f4a78d3f5e10b926eeb8a"},
-    {file = "pywin32-311-cp314-cp314-win32.whl", hash = "sha256:b7a2c10b93f8986666d0c803ee19b5990885872a7de910fc460f9b0c2fbf92ee"},
-    {file = "pywin32-311-cp314-cp314-win_amd64.whl", hash = "sha256:3aca44c046bd2ed8c90de9cb8427f581c479e594e99b5c0bb19b29c10fd6cb87"},
-    {file = "pywin32-311-cp314-cp314-win_arm64.whl", hash = "sha256:a508e2d9025764a8270f93111a970e1d0fbfc33f4153b388bb649b7eec4f9b42"},
+    {file = "pywin32-312-cp312-cp312-win32.whl", hash = "sha256:dab4f65ac9c4e48400a2a0530c46c3c579cd5905ecd11b80692373915269208b"},
+    {file = "pywin32-312-cp312-cp312-win_amd64.whl", hash = "sha256:b457f6d628a47e8a7346ce22acb7e1a46a4a78b52e1d17e1af56871bd19a93bc"},
+    {file = "pywin32-312-cp312-cp312-win_arm64.whl", hash = "sha256:6017c58e12f6809fbb0555b75df144c2922a9ffd18e4b9b5afa863b6c1a9d950"},
+    {file = "pywin32-312-cp313-cp313-win32.whl", hash = "sha256:7a27df850933d16a8eabfbaeb73d52b273e2da667f80d70b01a89d1f6828d02c"},
+    {file = "pywin32-312-cp313-cp313-win_amd64.whl", hash = "sha256:c53e878d15a1c44788082bfe712a905433473aa38f86375b7cf8b45e3acbaaf9"},
+    {file = "pywin32-312-cp313-cp313-win_arm64.whl", hash = "sha256:59aba5d5940842075343a5ddc6b11f1cdf0d1567fe745290359dfbcc7c2eb831"},
+    {file = "pywin32-312-cp314-cp314-win32.whl", hash = "sha256:a77a90fbb6881238d2ca9c6fd797b25817f3768fe78d214a90137ff055a75f5b"},
+    {file = "pywin32-312-cp314-cp314-win_amd64.whl", hash = "sha256:a4dd3a848290ef724347b19f301045831d8e802fa4464f491b98b1e0a081432e"},
+    {file = "pywin32-312-cp314-cp314-win_arm64.whl", hash = "sha256:9fce94568364e0155e6dfb781ac5d95903be8baf28670632beab1b523f300daa"},
 ]
 
 [[package]]
@@ -6318,7 +6319,7 @@ files = [
 
 [[package]]
 name = "transformers"
-version = "5.9.0"
+version = "5.10.1"
 requires_python = ">=3.10.0"
 summary = "Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
 groups = ["default"]
@@ -6334,8 +6335,8 @@ dependencies = [
     "typer",
 ]
 files = [
-    {file = "transformers-5.9.0-py3-none-any.whl", hash = "sha256:1d19509bcff7028ebc6b277d71caa712e8353778463d38764237d14b42b52788"},
-    {file = "transformers-5.9.0.tar.gz", hash = "sha256:25997cb8fa6053533171634b6162d7df54346530ec2aa9b42bb834e63668c842"},
+    {file = "transformers-5.10.1-py3-none-any.whl", hash = "sha256:ccb919ea1b77338b44d0d45d23f7472081906b1bb6ed8e5f5cf4d692d1da03d4"},
+    {file = "transformers-5.10.1.tar.gz", hash = "sha256:31112d1dcdfcf9934242acbba891f44e2279ff74b9b8ba4595640e0e04195a3a"},
 ]
 
 [[package]]
@@ -6691,7 +6692,7 @@ files = [
 
 [[package]]
 name = "uvicorn"
-version = "0.48.0"
+version = "0.49.0"
 requires_python = ">=3.10"
 summary = "The lightning-fast ASGI server."
 groups = ["mcp"]
@@ -6702,8 +6703,8 @@ dependencies = [
     "typing-extensions>=4.0; python_version < \"3.11\"",
 ]
 files = [
-    {file = "uvicorn-0.48.0-py3-none-any.whl", hash = "sha256:48097851328b87ec36117d3d575234519eb58c2b22d79666e9bbc6c49a761dad"},
-    {file = "uvicorn-0.48.0.tar.gz", hash = "sha256:a5504207195d08c2511bf9125ede5ac4a4b71725d519e758d01dcf0bc2d31c37"},
+    {file = "uvicorn-0.49.0-py3-none-any.whl", hash = "sha256:ba3d14c3ee7e41c6c654c46c9eb489d33213cdd30aa1696eab1374337c13f68f"},
+    {file = "uvicorn-0.49.0.tar.gz", hash = "sha256:ebf4271aa580d9de97f93192d4595176df6e91f9aae919ca73e4fc07df1e66a3"},
 ]
 
 [[package]]
